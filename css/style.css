@@ -1,33 +1,28 @@
-
+/*Inizio general*/
 .container{
-    display: inline-block;
-   
+   margin: 0 20px; 
 }
 
+
 .row{
-    margin: 40px 0px;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .product{
-    position: relative;
     display: inline-block;
     padding: 0px;
+    width: 30%;
+    margin-bottom: 50px;
+
 }
+/*Fine general*/
 
 
-.heart{
-    text-align: center;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    background-color: white;
-    top: 15px;
-    right: 0;
-}
-
-.icon{
-    display: inline-block;
-    line-height: 35px;
+/*Inizio immagini*/
+.immagini{
+    position: relative;
+    width: 100%;
 }
 
 .cont-picture-b{
@@ -43,53 +38,76 @@
 }
 
 .picture-a{
-    z-index: 1;
+    z-index: 1;  
 }
 
+.picture-a, .picture-b{
+    width: 100%;
+}
+/*Fine immagini*/
 
 
+/*Inizio icona*/
+.heart{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: white;
+    top: 15px;
+    right: 0;
+}
+
+.icon{
+    display: inline-block;
+    line-height: 35px;
+}
+/*Fnizio icona*/
+
+
+/*Inizio parte bassa immagini*/
 .parte-bassa{
     position: absolute;
     display: inline-block;
     bottom: 20px;
     left: 0px;
-    
+}
+.sconto, .sostenibilità{
+    color: white;
+    padding: 5px;
 }
 
 .sconto{
     display: inline-block;
     background-color: red;
-    color: white;
-    padding: 5px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .sostenibilità{
     position: relative;
     left: 1px;
-    padding: 5px;
     background-color: green;
-    color: white;
     font-weight: bold;
-
 }
+/*Fine parte bassa immagini*/
 
+
+/*Inizio info*/
 .info{
     margin-top: 10px;
 }
 
-.brand{
+.brand, .old-price{
     color: gray; 
 }
 
 .new-price{
     color: red;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .old-price{
     text-decoration: line-through;
 }
+/*Fine info*/
 
