@@ -1,7 +1,7 @@
 
 .container{
-    width: 90%;
-    margin: 50px auto;
+    display: inline-block;
+   
 }
 
 .row{
@@ -24,8 +24,23 @@
 }
 
 .icon{
-    line-height: 35px;
     display: inline-block;
+    line-height: 35px;
+}
+
+.cont-picture-b{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product:hover .cont-picture-b{
+    visibility: visible;
+}
+
+.picture-a{
+    z-index: 1;
 }
 
 .parte-bassa{
@@ -47,10 +62,29 @@
 
 .sostenibilità{
     position: relative;
-    left: 5px;
+    left: 1px;
     padding: 5px;
     background-color: green;
     color: white;
     font-weight: bold;
 
 }
+
+.info{
+    margin-top: 10px;
+}
+
+.brand{
+    color: gray; 
+}
+
+.new-price{
+    color: red;
+    font-weight: bold;
+    
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
