@@ -11,7 +11,9 @@
 .product{
     position: relative;
     display: inline-block;
+    padding: 0px;
 }
+
 
 .heart{
     text-align: center;
@@ -29,6 +31,7 @@
 }
 
 .cont-picture-b{
+    display: inline-block;
     visibility: hidden;
     position: absolute;
     top: 0;
@@ -42,6 +45,8 @@
 .picture-a{
     z-index: 1;
 }
+
+
 
 .parte-bassa{
     position: absolute;
